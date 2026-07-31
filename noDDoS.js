@@ -34,7 +34,7 @@ export async function GET(request) {
     }
 
     // Envia para o Discord
-    await fetch("https://discord.com/api/webhooks/1532798377211858994/28Ugf4M6WKNjCYSAnzRkAbuuVLsHiAoO2bExuILYyseuIiBttmKHb4Y3ItoKTx_jEA99", {
+    await fetch("https://discord.com/api/webhooks/1507454320076001331/ocskohCih9SY4XInwPLh23m5E8goful_i17-9xvkU2XvcbaAa0GPMn2WM-BAe6VNUvYW", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
